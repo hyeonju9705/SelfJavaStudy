@@ -1,0 +1,14 @@
+package sec01.exam02;
+
+public class StudentExample {
+
+	public static void main(String[] args) {
+		// ÀÚ½Ä °´Ã¼ ÀÌ¿ë
+		Student student = new Student("È«±æµ¿", "123456-1234567", 1);
+		System.out.println("name : "+student.name);
+		System.out.println("ssn : "+student.ssn);
+		System.out.println("studentNo :"+student.studentNo);
+
+	}
+
+}
