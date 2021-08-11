@@ -40,3 +40,17 @@ ex) 이름: for( ; ; ) {<br>
 추상클래스란 abstract 키워드를 붙여야하며 new 연산자를 이용해서 객체만들지 못하고 상속을 통해 자식 클래스만 만들수 있다<br>
 <br>인터페이스는 개발코드와 객체가 서로 통신하는 접점역할<br>
 <br>구현객체가 인터페이스 타입으로 자동타입 변환 하면, 인터페이스에 선언된 메소드만 사용가능하다는 제약사항이 따름
+<br><br>
+<OL>
+          <LI>NullPointerException
+          <br>객체가 없는 상태에서 객체를 사용하려 할 때 예외발생</LI>
+          <LI>ArrayIndexOutOfBoundsException
+          <br>인덱스 범위를 초과할 경우 실행예외 발생</LI>
+          <LI>NumberFormatException
+          <br>숫자로 변환될 수 없는 문자를 숫자로 변환시키려 할 때 예외발생</LI>
+          <LI>ClassCastException
+          <br>타입변환은 상위클래스와 하위클래스 간에 발생+ 구현 클래스와 인터페이스 간에도 발생
+          <br>이러한 관계가 아니라면 클래스는 다른 타입으로 변환할 수 없기 때문에 예외발생</LI>
+</OL>
+<br><br>
+
