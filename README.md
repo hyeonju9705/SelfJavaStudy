@@ -55,3 +55,8 @@ ex) 이름: for( ; ; ) {<br>
 <br><br>
 객체의 동등 비교를 위해서는 Object의 equals() 메소드만 재정의하지 말고<br>
 hashCode() 메소드도 재정의해서 논리적으로 동등한 객체일 경우 동일한 해시코드가 리턴되도록 해야함
+<br><br>
+데몬스레드는 주 스레드가 종료되면 강제적으로 자동 종료 되는것
+<br> 스레드를 데몬으로 만들기 위해서는 주 스레드가 데몬이 될 스레드의 setDaemon(true)를 호출
+<br> start() 메소드가 호출되고 나서 setDaemon(true)를 호출하면 IllegalThreadStateException 발생
+<br> 따라서 start() 메소드 호출 전에 setDaemon(true) 
