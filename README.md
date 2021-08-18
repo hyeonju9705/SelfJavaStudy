@@ -59,8 +59,8 @@ hashCode() 메소드도 재정의해서 논리적으로 동등한 객체일 경�
 데몬스레드는 주 스레드가 종료되면 강제적으로 자동 종료 되는것
 <br> 스레드를 데몬으로 만들기 위해서는 주 스레드가 데몬이 될 스레드의 setDaemon(true)를 호출
 <br> start() 메소드가 호출되고 나서 setDaemon(true)를 호출하면 IllegalThreadStateException 발생
-<br> 따라서 start() 메소드 호출 전에 setDaemon(true) 
+<br> 따라서 start() 메소드 호출 전에 setDaemon(true) 호출하기!
 <br><br>
 순차적으로 추가 또는 삭제하는 경우는 ArrayList가 빠르지만<br>
 중간에 추가, 삭제하는 경우는 앞뒤 링크 정보만 변경하므로 되는 LinkedList가 더 빠름<br>
-ArrayList는 뒤쪽 인덱스를 모두1씩 증가,감소시키는 시간이 필요하므로 처리 속도가 
+ArrayList는 뒤쪽 인덱스를 모두1씩 증가,감소시키는 시간이 필요하므로 처리 속도가 느림
